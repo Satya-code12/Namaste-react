@@ -1,0 +1,44 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+.header-text{
+ /* border: black solid 1px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1rem;
+ padding: 1rem;
+}
+
+.form{
+ /* border: black solid 1px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 2rem;
+}
+
+#task-input{
+ padding: .5rem;
+ width: 15rem;
+ border-radius: .5rem;
+ outline: none;
+ /* border: none;*/
+}
+
+.sbmt-btn{
+ padding: .5rem;
+}
+
+.added-datas {
+    /* border: black solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    max-width: 50rem;
+}
